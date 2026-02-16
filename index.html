@@ -1,171 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STV Live</title>
+<title>Channel List Player</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.compiled.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <style>
-body {
-    margin: 0;
-    background: #000;
-    font-family: Arial;
-    color: white;
+body{
+  margin:0;
+  font-family:Arial;
+  background:#111;
+  color:white;
 }
 
-#videoContainer {
-    width: 100%;
-    height: 220px;
-    background: black;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+#player{
+  width:100%;
+  height:220px;
+  background:black;
 }
 
-video {
-    width: 100%;
-    height: 100%;
+video{
+  width:100%;
+  height:100%;
 }
 
-#channels {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
+#channels{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  padding:10px;
 }
 
-.channel {
-    background: #111;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
+.channel{
+  background:#222;
+  padding:8px;
+  border-radius:6px;
+  text-align:center;
+  cursor:pointer;
 }
 
-.channel:hover {
-    background: #222;
+.channel img{
+  width:60px;
+  height:60px;
 }
 
-.channel img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.channel-name {
-    margin-top: 5px;
-    font-size: 14px;
+.channel:hover{
+  background:#333;
 }
 </style>
 
 </head>
 <body>
 
-<div id="videoContainer">
-    <video id="video" controls autoplay></video>
+<div id="player">
+  <video id="video" controls autoplay playsinline></video>
 </div>
 
 <div id="channels"></div>
 
 <script>
 
-const proxy = "https://node-proxy-ys4g.onrender.com/proxy?url=";
+const PLAYLIST_URL = "https://node-proxy-5d7s.onrender.com/playlist";
 
-const playlistUrl = proxy + encodeURIComponent(
-"https://raw.githubusercontent.com/Sagar878796/Stvlive/main/playlist.m3u"
-);
+const video = document.getElementById("video");
+const channelsDiv = document.getElementById("channels");
 
-const video = document.getElementById('video');
-let player;
+let hls;
 
-async function initPlayer() {
+function playStream(url){
 
-    shaka.polyfill.installAll();
+  if(hls){
+    hls.destroy();
+  }
 
-    if (shaka.Player.isBrowserSupported()) {
+  if(Hls.isSupported()){
 
-        player = new shaka.Player(video);
+    hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(video);
 
-        player.addEventListener('error', onError);
+  }else{
+    video.src = url;
+  }
 
-        loadPlaylist();
+}
 
-    } else {
-        alert("Browser not supported");
+function addChannel(name, logo, url){
+
+  const div = document.createElement("div");
+  div.className = "channel";
+
+  div.innerHTML = `
+    <img src="${logo}" onerror="this.src='https://via.placeholder.com/60'">
+    <div>${name}</div>
+  `;
+
+  div.onclick = () => playStream(url);
+
+  channelsDiv.appendChild(div);
+}
+
+async function loadPlaylist(){
+
+  const res = await fetch(PLAYLIST_URL);
+  const text = await res.text();
+
+  const lines = text.split("\n");
+
+  let name = "";
+  let logo = "";
+
+  for(let line of lines){
+
+    if(line.startsWith("#EXTINF")){
+
+      name = line.split(",").pop();
+
+      const match = line.match(/tvg-logo="([^"]+)"/);
+      logo = match ? match[1] : "";
+
     }
-}
 
-function onError(e) {
-    console.error(e);
-    alert("Play error");
-}
+    if(line.startsWith("http")){
 
-async function loadPlaylist() {
+      addChannel(name, logo, line);
 
-    const res = await fetch(playlistUrl);
-    const text = await res.text();
-
-    const lines = text.split('\n');
-
-    let channels = [];
-
-    for (let i = 0; i < lines.length; i++) {
-
-        if (lines[i].includes("#EXTINF")) {
-
-            const name = lines[i].split(',')[1];
-            const url = lines[i+1];
-
-            channels.push({
-                name: name,
-                url: url,
-                logo: "https://via.placeholder.com/150x100?text=LIVE"
-            });
-        }
     }
 
-    showChannels(channels);
+  }
+
 }
 
-function showChannels(channels) {
-
-    const container = document.getElementById('channels');
-
-    channels.forEach(ch => {
-
-        const div = document.createElement('div');
-        div.className = "channel";
-
-        div.innerHTML = `
-            <img src="${ch.logo}">
-            <div class="channel-name">${ch.name}</div>
-        `;
-
-        div.onclick = () => playChannel(ch.url);
-
-        container.appendChild(div);
-    });
-}
-
-async function playChannel(url) {
-
-    try {
-
-        const proxyUrl = proxy + encodeURIComponent(url);
-
-        await player.load(proxyUrl);
-
-        video.play();
-
-    } catch (e) {
-        alert("Stream not working");
-        console.error(e);
-    }
-}
-
-initPlayer();
+loadPlaylist();
 
 </script>
 
