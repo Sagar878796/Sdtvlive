@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVjlLdFQwVktNcVI0OTVoQ1pOdjdmUzFDOG85TTRoY2drYmZXODZDMWVpT3ZzTGU1NUZsbHNmRDNyOTd0NXhXWnE=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVitTNldFWXlFaGJZZlVlSy9BdVZwUHNWeURaRTVDVFh6VzJweGtMUDFWNE84cTFZUE1XRUdDYXZnZGtFRmhGU3c=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=22
@@ -3253,8 +3253,6 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10594
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10595
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10603.jpg" group-title="News",DD NAGALAND
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10603
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10608.jpg" group-title="News",AAJ TAK
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10608
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10827.jpg" group-title="News",Republic TV Bharat
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10827
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10932.jpg" group-title="News",Gangaur
