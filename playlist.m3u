@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVmViMXBYWFk5aDNPOURTckhTSVc0amRGTCtUUHNiWE1BK0FNMWFsOElxc29rc2JaYXl0QTlxSE92ajdDZlVsc0E=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVnJMaS9vSnM4TTkxdnZLc2Q0Und1MTlMUGwrWEh0QnM2NEp3QWg3M0xoVFgrdTNTcGJRdjhjbUJFR2pHMjZGV2s=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3319,12 +3319,8 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10546
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10547
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10551.jpg" group-title="News",R Republic
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10551
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10585.jpg" group-title="News",NAVBHARAT
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10585
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10590.jpg" group-title="News",NEWS 18 INDIA
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10590
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10608.jpg" group-title="News",AAJ TAK
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10608
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10827.jpg" group-title="News",Republic TV Bharat
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10827
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-14582.jpg" group-title="News",Zee News
