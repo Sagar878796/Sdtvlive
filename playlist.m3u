@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVlJVOEVWNldiY1IxZVpyYVpjYzdZRnkwbzhNZU5TbHpGZzZZR0ExM2Vaa29mZ2Uxcm1acitGM0ZBWWEwUDI2Nmg=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVm1vY1E1dVN5b3pWR25yVDNiKzRFdG5OQ3VuSzJNeU9rUTJubUpKWGI1akRvRHM2dHIyamxEUXlNVFowb1djaU0=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3733,8 +3733,6 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=923146139
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=225998679
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/compressed/047618085.png" group-title="Religious & Devotional",SANMARG TV
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=047618085
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/compressed/736151468.png" group-title="Religious & Devotional",Aastha
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=736151468
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/980913547.jpeg" group-title="Religious & Devotional",Ratwara Sahib
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=980913547
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/980752311.jpeg" group-title="Religious & Devotional",Desi Vaid
