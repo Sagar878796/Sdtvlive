@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVjVRNkUvbTlsazI2aksrMVNqbEpPci95ZTJJZHBBdm9CQjBhZitBWGVRU0N2NkZrNE9kZUxFaWhJQVJnY3o2VFg=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVi83VFYrZG1Vek5PRUtUVU9DVkRSekNKTHBnQjFtOW1HckRTeDU4TEpZenoreGQ5TmZEdU81MkFVNE1xK2Qza1k=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3543,16 +3543,12 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=864758690
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=869801066
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10645.jpg" group-title="Entertainment",RAJ TV
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10645
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/819038243.jpeg" group-title="Entertainment",PTC PUNJABI GOLD
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=819038243
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1617.jpg?tag=123" group-title="Infotainment",DD RANCHI
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1617
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-91780572929467.png" group-title="Infotainment",DD KISAN
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-9
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-101780573123355.png" group-title="Infotainment",DD BHARATI
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-10
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-35.jpg" group-title="Infotainment",DD BIHAR
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-35
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-15.png" group-title="Infotainment",DD CHHATTISGARH
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-15
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-311780576734170.png" group-title="Infotainment",DD MADHYA PRADESH
