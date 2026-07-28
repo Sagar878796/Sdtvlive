@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVkJ1TDF2aTdkVjRQNWtWUU5TQ2x4SDlzUGFWTk13SVRiMDRKRVlHZlRlem5QcEoxOVVSWllhbVNKQUh1M1ZZYWY=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVnMyNlZQcy9CVi93N3RHa0MwMDl0R0U1MThNRDN1cG1uWDl1VG9WOTVWbGpoN3UwdjhadE1nQ1VMeWtYSkZMZEU=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3129,6 +3129,8 @@ https://mix.drmlive.net/mix/xiaomi-66329.m3u8
 #EXTINF:-1 tvg-id="66046" tvg-logo="https://cdn.alsgp0.fds.api.mi-img.com/mitv/tv_plus/channel/0/4386ce1f8229b007e655447e91ed958d.webp" group-title="xiaomitvplus-Travel", NatureStream.tv
 https://mix.drmlive.net/mix/xiaomi-66046.m3u8
 
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-12.jpg" group-title="News",DD NEWS
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-12
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/122612597.jpeg" group-title="News",Janadesh News
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=122612597
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-11391780576231158.png" group-title="News",Bharat Express
@@ -3321,6 +3323,8 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=417429835
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=087310978
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/088240922.jpeg" group-title="News",24 Hours TV
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=088240922
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/992187986.jpeg" group-title="News",Prime Media Goa
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=992187986
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/987671201.jpeg" group-title="News",Prudent - Goa News
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=987671201
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-23.png" group-title="News",DD INDIA
