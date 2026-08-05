@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVmViMXBYWFk5aDNPOURTckhTSVc0amRDc1FnK3A3ekZ0VU9UWkZCZ0RIc25BbUI1MUdVSXFFazNWM01KVGt4OGU=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVndSdVIwOXJZYXZ1SVYwdEdXcnl0K212eExqSjFOK054SlhYV0pmZE0vZFlpL3JmWlJoR0RDS0FKaXRuMm9hV3Q=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3365,6 +3365,8 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1245
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1261
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-14981780577701465.png" group-title="News",NEWS7 TAMIL
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1498
+#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-1531.jpg" group-title="News",WIN TV
+https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1531
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-16061780576615252.png" group-title="News",MALAI MURASU SEITHIGAL
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=pishow-1606
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/pishow-16121780577181338.png" group-title="News",THANTHI TV
