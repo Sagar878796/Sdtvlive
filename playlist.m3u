@@ -9,7 +9,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=https://mix.drmlive.net/mix/allowipmpd_key.php?id=chlajabsdk
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3Yf3PHX/DRMLIVE-Aggressive-Logo.png" group-title="1-Playlist-Activation",Activate Playlist
-https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVmwxL3I5S1l5YmtCWnlhWFVmUnRLa3o2RGh5N2VYU3ZqZVB6T1BRUUJCaHdVYVpzUEdPcDdJS0VuVWtOVjMwVW4=
+https://mix.drmlive.net/mix/actchaljabsdk.mpd?token=YWJTTzZKeWI2amJwZ3FJY0hHb1RNKzVsbjhtNVlGWmNCVVhHVHpaUjJnK2hTbXBWVmlzRU93aXpDZXprTDhrVjMyYm5qeVlBcXpJdW5QTTE4QWI5cHIxb3NMNCt0K1o3MlFUQk9NUkFxaGVBQzJEUjFEL1pSTkd0NjdoaWcrWXM=
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://la.drmlive.net/tp/sling_ck?id=2152
@@ -3431,8 +3431,6 @@ https://mix.drmlive.net/mix/playboxtv.m3u8?id=768197095
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10546
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10585.jpg" group-title="News",NAVBHARAT
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10585
-#EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10827.jpg" group-title="News",Republic TV Bharat
-https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10827
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/compressed/PBha-105491790837053691.jpg" group-title="News",ABP NEWS
 https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10549
 #EXTINF:-1 tvg-logo="https://playboxtv-vod.multitvsolution.com/media.playboxtv.in/content/liveTv/PBha-10608.jpg" group-title="News",AAJ TAK
